@@ -61,6 +61,17 @@ function NavBar() {
               User
             </StyledLink>
           </Button>
+
+          <Button>
+            <StyledLink
+              to="/transition"
+              activeStyle={{ fontWeight: "bold" }}
+              activeClassName="selected"
+              exact
+            >
+              Transition
+            </StyledLink>
+          </Button>
         </div>
       </Toolbar>
     </AppBar>

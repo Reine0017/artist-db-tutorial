@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Artist from "./components/Artist";
 import NavBar from "./components/NavBar";
 import User from "./components/user";
+import TransitionComp from "./components/Transition";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         <Route path="/artist/:artistId" component={Artist} />
         <Route path="/user" component={User} />
+        <Route path="/transition" component={TransitionComp} />
         <Route path="/" component={Home} />
       </Switch>
     </BrowserRouter>
