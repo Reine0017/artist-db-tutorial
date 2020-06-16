@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Link from "react-router-dom";
 import AlbumList from "./albumList";
 
 const REQ_URL = "http://localhost:3004/artists";
